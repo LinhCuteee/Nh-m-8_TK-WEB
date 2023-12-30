@@ -1,0 +1,58 @@
+[
+    {
+        "id": 1,
+        "name":" Black Forest Opera",
+        "price": 200,
+        "image": "image/1.png"
+    },
+    {
+        "id": 2,
+        "name":" Mousse & Croissant",
+        "price": 250,
+        "image": "image/2.png"
+    },
+    {
+        "id": 3,
+        "name":" Popcorn Pearl Chou",
+        "price": 290,
+        "image": "image/3.png"
+    },
+    {
+        "id": 4,
+        "name":" Ốp La La Cheesecake",
+        "price": 200,
+        "image": "image/4.png"
+    },
+    {
+        "id": 5,
+        "name":" Tiramisu Lava",
+        "price": 300,
+        "image": "image/5.png"
+    },
+ 
+    {
+        "id": 6,
+        "name":" Kisses Choco",
+        "price": 300,
+        "image": "image/6.png"
+    },
+    {
+        "id": 7,
+        "name":" Tart Aperol",
+        "price": 200,
+        "image": "image/7.png"
+    },
+    {
+        "id": 8,
+        "name":" Coco Dứa",
+        "price": 200,
+        "image": "image/8.png"
+    },
+
+    {
+        "id": 9,
+        "name":" Tart trứng",
+        "price": 150,
+        "image": "image/9.png"
+    }
+]
