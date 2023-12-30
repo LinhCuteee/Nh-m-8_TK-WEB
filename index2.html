@@ -1,0 +1,442 @@
+<!DOCTYPE html>
+<html lang="en">
+  
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Cake website </title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+
+    <!--css link-->
+    <link rel="stylesheet" href="style2.css">
+</head>
+
+<body>
+
+
+<header class="header">
+    <div class="logoContent">
+        <a href="index.html" class="logo"><img src="img/logo.png" alt=""></a>
+    </div>
+
+    <nav class="navbar">
+        <a href="#home">Home</a>
+        <a href="#shop">Menu</a>
+        <a href="#about">About</a>
+        <a href="#blog">Blog</a>
+        <a href="#contact">Contact</a>
+        <a href="#review">Review</a>
+
+    </nav>
+
+    <div class="icons">
+        <div id="menu-btn" class="fas fa-bars"></div>
+        <div id="search-btn" class="fas fa-search" onclick="toggleSearchBox()"></div>
+
+        <div id="search-box" class="search-box">
+            <input type="text" id="search-input" placeholder="Search products...">
+            <button onclick="searchProducts()">Search</button>
+        </div>
+        
+        <div id="cart-btn" class="fas fa-shopping-cart"></div>
+        <div id="login-btn" class="fas fa-user"></div>
+    </div>
+
+
+</header>
+
+<section class="home" id="home">
+    <div class="slides-container">
+
+        <div class="slide active">
+            <div class="content">
+                <span>Our Signatute</span>
+                <h3>Bánh trứng</h3>
+                <a href="#" class="btn">Shop Now</a>
+            </div>
+            <div class="img">
+                <img decoding="async"  src="img/dcs1.png" alt="">
+            </div>
+        </div>
+
+
+        <div class="slide">
+            <div class="content">
+                <span>Our Signatute</span>
+                <h3>Bánh trứng</h3>
+                <a href="#" class="btn">Shop Now</a>
+            </div>
+            <div class="img">
+                <img decoding="async"  src="img/dcs2.png" alt="">
+            </div>
+        </div>
+
+        <div class="slide">
+            <div class="content">
+                <span>Our Signatute</span>
+                <h3>Bánh trứng</h3>
+                <a href="#" class="btn">Shop Now</a>
+            </div>
+            <div class="img">
+                <img decoding="async"  src="img/dcs3.png" alt="">
+            </div>
+        </div>
+
+    </div>
+    <div id="next-slide" class="fas fa-angle-right" onclick="next()"></div>
+    <div id="prev-slide" class="fas fa-angle-left" onclick="next()"></div>
+</section>
+
+<section class="banner-container">
+
+    <div class="banner">
+        <img decoding="async" src="img/s1.jpg" alt="">
+        <div class="content">
+        <span>limited sales</span>
+        <h3>upto 50% off</h3>
+        <a href="#" class="btn">shop now</a>
+    </div>
+    </div>
+
+    <div class="banner">
+        <img decoding="async" src="img/s2.jpg" alt="">
+        <div class="content">
+        <span>limited sales</span>
+        <h3>upto 50% off</h3>
+        <a href="#" class="btn">shop now</a>
+    </div>
+    </div>
+
+    <div class="banner">
+        <img decoding="async" src="img/s3.jpg" alt="">
+        <div class="content">
+        <span>limited sales</span>
+        <h3>upto 50% off</h3>
+        <a href="#" class="btn">shop now</a>
+    </div>
+    </div>
+
+    <div class="banner">
+        <img decoding="async" src="img/s4.jpg" alt="">
+        <div class="content">
+        <span>limited sales</span>
+        <h3>upto 50% off</h3>
+        <a href="#" class="btn">shop now</a>
+    </div>
+    </div>
+
+    <div class="banner">
+        <img decoding="async" src="img/s5.jpg" alt="">
+        <div class="content">
+        <span>limited sales</span>
+        <h3>upto 50% off</h3>
+        <a href="#" class="btn">shop now</a>
+    </div>
+    </div>
+
+    <div class="banner">
+        <img decoding="async" src="img/s6.jpg" alt="">
+        <div class="content">
+        <span>limited sales</span>
+        <h3>upto 50% off</h3>
+        <a href="#" class="btn">shop now</a>
+    </div>
+    </div>
+
+</section>
+
+
+<div class="heading">
+    <h1>Menu</h1>
+    </div>
+
+<section class="products">
+
+    <h1 class="title"> our <span>products</span> <a href="#">view all >></a> </h1>
+
+    <div class="box-container">
+
+        <div class="box">
+            <div class="icons">
+                <a href="#" class="fas fa-shopping-cart"></a>
+                <a href="#" class="fas fa-heart"></a>
+                <a href="#" class="fas fa-eye"></a>
+            </div>
+            <div class="img">
+                <img decoding="async" src="img/dc1.jpg" alt="" >
+            </div>
+            <div class="content">
+                <h3>Good Morning</h3>
+                <div class="price">$19.99</div>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="far fa-star"></i>
+                </div>
+            </div>
+        </div>
+
+        <div class="box">
+            <div class="icons">
+                <a href="#" class="fas fa-shopping-cart"></a>
+                <a href="#" class="fas fa-heart"></a>
+                <a href="#" class="fas fa-eye"></a>
+            </div>
+            <div class="img">
+                <img decoding="async" src="img/dc2.jpg" alt="">
+            </div>
+            <div class="content">
+                <h3>A Piece of egg</h3>
+                <div class="price">$120</div>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="far fa-star"></i>
+                </div>
+            </div>
+        </div>
+
+        <div class="box">
+            <div class="icons">
+                <a href="#" class="fas fa-shopping-cart"></a>
+                <a href="#" class="fas fa-heart"></a>
+                <a href="#" class="fas fa-eye"></a>
+            </div>
+            <div class="img">
+                <img decoding="async" src="img/dc3.jpg" alt="">
+            </div>
+            <div class="content">
+                <h3>Fat egg cake</h3>
+                <div class="price">$190</div>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="far fa-star"></i>
+                </div>
+            </div>
+        </div>
+
+        <div class="box">
+            <div class="icons">
+                <a href="#" class="fas fa-shopping-cart"></a>
+                <a href="#" class="fas fa-heart"></a>
+                <a href="#" class="fas fa-eye"></a>
+            </div>
+            <div class="img">
+                <img decoding="async" src="img/dc4.jpg" alt="">
+            </div>
+            <div class="content">
+                <h3>Smilling egg</h3>
+                <div class="price">$220</div>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="far fa-star"></i>
+                </div>
+            </div>
+        </div>
+
+        <div class="box">
+            <div class="icons">
+                <a href="#" class="fas fa-shopping-cart"></a>
+                <a href="#" class="fas fa-heart"></a>
+                <a href="index4.html" class="fas fa-eye"></a>
+            </div>
+            <div class="img">
+                <img decoding="async" src="img/dc5.jpg" alt="">
+            </div>
+            <div class="content">
+                <h3>Egg Tart</h3>
+                <div class="price">$150</div>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="far fa-star"></i>
+                </div>
+            </div>
+        </div>
+
+        <div class="box">
+            <div class="icons">
+                <a href="#" class="fas fa-shopping-cart"></a>
+                <a href="#" class="fas fa-heart"></a>
+                <a href="#" class="fas fa-eye"></a>
+            </div>
+            <div class="img">
+                <img decoding="async" src="img/dc6.jpg" alt="">
+            </div>
+            <div class="content">
+                <h3> Egg Flan</h3>
+                <div class="price">$200</div>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="far fa-star"></i>
+                </div>
+            </div>
+        </div>
+
+        <div class="box">
+            <div class="icons">
+                <a href="#" class="fas fa-shopping-cart"></a>
+                <a href="#" class="fas fa-heart"></a>
+                <a href="#" class="fas fa-eye"></a>
+            </div>
+            <div class="img">
+                <img decoding="async" src="img/dc7.jpg" alt="">
+            </div>
+            <div class="content">
+                <h3> lemon n berries egg</h3>
+                <div class="price">$350</div>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="far fa-star"></i>
+                </div>
+            </div>
+        </div>
+
+        <div class="box">
+            <div class="icons">
+                <a href="#" class="fas fa-shopping-cart"></a>
+                <a href="#" class="fas fa-heart"></a>
+                <a href="#" class="fas fa-eye"></a>
+            </div>
+            <div class="img">
+                <img decoding="async" src="img/dc8.jpg" alt="">
+            </div>
+            <div class="content">
+                <h3> sour lime egg</h3>
+                <div class="price">$300</div>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="far fa-star"></i>
+                </div>
+            </div>
+        </div>
+</section>
+
+
+
+<div class="heading" id="contact">
+    <h1>Contact us</h1>
+</div>
+
+<section class="contact">
+    <div class="icons-container">
+
+        <div class="icons">
+            <i class="fas fa-phone"></i>
+            <h3>Our number</h3>
+            <p>+111-222-3333</p>
+            <p>+456-786-7890</p>
+        </div>
+
+        <div class="icons">
+            <i class="fas fa-envelope"></i>
+            <h3>our email</h3>
+            <p>Takeacake@gmail.com</p>
+            <p>CAKE@gmail.com</p>
+        </div>
+
+        <div class="icons">
+            <i class="fas fa-map-marker-alt"></i>
+            <h3>Our address</h3>
+            <p>HaNoi, VietNam</p>
+        </div>
+
+    </div>
+
+    <div class="row">
+        <form action="">
+            <h3>get in touch</h3>
+            <div class="inputBox">
+            <input type="text" placeholder="enter your name" class="box">
+            <input type="text" placeholder="enter your email" class="box">
+           </div>
+           <div class="inputBox">
+               <input type="number" placeholder="enter your number" class="box">
+               <input type="text" placeholder="enter your subject" class="box">
+              </div>
+              <textarea placeholder=" your message" cols="30" rows="10"></textarea>
+              <input type="submit" value="send message" class="btn">
+        </form>
+        <iframe class="map" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3724.2843653376385!2d105.82428789999999!3d21.02130490000001!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3135ab79e16312a3%3A0x32161eb38c5a3d2f!2zTmcuIDIxNywgw5QgQ2jhu6MgROG7q2EsIMSQ4buRbmcgxJBhLCBIw6AgTuG7mWksIFZp4buHdCBOYW0!5e0!3m2!1svi!2sus!4v1694676305848!5m2!1svi!2sus" height="500" width="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+    </div>
+
+</section>
+
+
+<div class="space"></div>
+
+
+
+<section class="footer">
+    <div class="box-container">
+        <div class="box">
+            <h3>quick links</h3>
+        <a href="#"> <i class="fas fa-arrow-right"></i> Home</a>
+        <a href="#"> <i class="fas fa-arrow-right"></i>Shop</a>
+        <a href="#"> <i class="fas fa-arrow-right"></i>About</a>
+        <a href="#"> <i class="fas fa-arrow-right"></i> Review</a>
+        <a href="#"> <i class="fas fa-arrow-right"></i>Blog</a>
+        <a href="#"> <i class="fas fa-arrow-right"></i>Contact</a>
+        </div>
+
+        <div class="box">
+            <h3>extra links</h3>
+            <a href="#"> <i class="fas fa-arrow-right"></i>  my order </a>
+            <a href="#"> <i class="fas fa-arrow-right"></i>  my favorite </a>
+            <a href="#"> <i class="fas fa-arrow-right"></i>  my wishlist </a>
+            <a href="#"> <i class="fas fa-arrow-right"></i>  my account </a>
+            <a href="#"> <i class="fas fa-arrow-right"></i>  terms or use </a>
+        </div>
+
+        <div class="box">
+            <h3>follow us</h3>
+            <a href="#"> <i class="fab fa-facebook-f"></i> facebook </a>
+            <a href="#"> <i class="fab fa-twitter"></i> twitter </a>
+            <a href="#"> <i class="fab fa-instagram"></i> instagram </a>
+            <a href="#"> <i class="fab fa-linkedin"></i> linkedin </a>
+            <a href="#"> <i class="fab fa-pinterest"></i> pinterest </a>
+        </div>
+
+        <div class="box">
+            <h3>Trở thành người nhà của Cake</h3>
+            <p>subscribe for latest update</p>
+            <form action="">
+            <input type="email" placeholder="enter your email address">
+            <input type="submit" value="subscribe" class="btn">
+            </form>
+            <img decoding="async" src="img/pm.png" class="payments" alt="">
+        </div>
+    </div>
+</section>
+
+<section class="credit">created by Nhóm 6</section>
+
+
+    <!--js link-->
+     <script src="js2.js" defer data-deferred="1"></script> 
+     <a href="#" class="arrow"><i><img src="img/up-arrow.png" alt="" width="50px"></i></a>
+
+    </body>
+</html>
