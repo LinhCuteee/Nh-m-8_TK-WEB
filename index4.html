@@ -1,0 +1,362 @@
+<!DOCTYPE html>
+<html lang="en">
+  
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Egg Tart </title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+
+    <!--css link-->
+    <link rel="stylesheet" href="style4.css">
+
+</head>
+
+<body>
+    <header class="header">
+    <div class="logoContent">
+        <a href="index.html" class="logo"><img src="img/logo.png" alt=""></a>
+    </div>
+
+    <nav class="navbar">
+        <a href="#home">Home</a>
+        <a href="#shop">Shop</a>
+        <a href="#about">About</a>
+        <a href="#blog">Blog</a>
+        <a href="#contact">Contact</a>
+        <a href="#review">Review</a>
+
+    </nav>
+
+    <div class="icons">
+        <div id="menu-btn" class="fas fa-bars"></div>
+        <div id="search-btn" class="fas fa-search" onclick="toggleSearchBox()"></div>
+
+        <div id="search-box" class="search-box">
+            <input type="text" id="search-input" placeholder="Search products...">
+            <button onclick="searchProducts()">Search</button>
+        </div>
+        
+       
+        <div id="cart-btn" class="fas fa-shopping-cart"></div>
+    
+    <a href="index3.html">
+        <div id="like-btn" class="fas fa-heart"></div>    
+    </a>
+    </div>
+
+
+</header>
+
+
+
+<section class="home" id="home">
+    <div class="slides-container">
+
+        <div class="slide active">
+            <div class="content">
+                <h3>Egg Tart</h3>
+                
+                <Span>Bánh Tart trứng là sự kết hợp hoàn hảo giữa vị ngọt của lớp kem và lòng trứng béo ngậy, tạo nên một trải nghiệm ẩm thực độc đáo. Với lớp vỏ tart giòn tan, bánh không chỉ đẹp mắt mà còn cuốn hút vị giác. Thưởng thức ngay để khám phá hương vị tinh tế và độc đáo của bánh Tart trứng!</span><br>
+                <a href="index3.html" class="btn">Shop Now</a>
+            </div>
+            <div class="img">
+                <img decoding="async"  src="img/p7.jpg" alt="">
+            </div>
+        </div>
+
+
+        <div class="slide">
+            <div class="content">
+                <h3>Bánh Tart Trứng</h3>
+                
+                <Span> Bánh Tart trứng là sự kết hợp hoàn hảo giữa vị ngọt của lớp kem và lòng trứng béo ngậy, tạo nên một trải nghiệm ẩm thực độc đáo. Với lớp vỏ tart giòn tan, bánh không chỉ đẹp mắt mà còn cuốn hút vị giác. Thưởng thức ngay để khám phá hương vị tinh tế và độc đáo của bánh Tart trứng!</span><br>
+                <a href="index3.html" class="btn">Shop Now</a>
+            </div>
+            <div class="img">
+                <img decoding="async"  src="img/id4.jpg" alt="">
+            </div>
+        </div>
+
+        <div class="slide">
+            <div class="content">
+                <h3>Bánh Tart Trứng</h3>
+                
+                <Span> Bánh Tart trứng là sự kết hợp hoàn hảo giữa vị ngọt của lớp kem và lòng trứng béo ngậy, tạo nên một trải nghiệm ẩm thực độc đáo. Với lớp vỏ tart giòn tan, bánh không chỉ đẹp mắt mà còn cuốn hút vị giác. Thưởng thức ngay để khám phá hương vị tinh tế và độc đáo của bánh Tart trứng!<br>
+                    
+                 </span><br>
+                <a href="index3.html" class="btn">Shop Now</a>
+            </div>
+            <div class="img">
+                <img decoding="async"  src="img/id4(2).jpg" alt="">
+            </div>
+        </div>
+
+    </div>
+    <div id="next-slide" class="fas fa-angle-right" onclick="next()"></div>
+    <div id="prev-slide" class="fas fa-angle-left" onclick="next()"></div>
+
+</section>
+
+
+<section class="about">
+    <div class="img">
+         <img decoding="async" src="img/ab2.jpg" alt="">
+    </div>
+
+    <div class="content">
+        <h3> Cách Bảo Quản?</h3>
+        <p>  Các loại bánh nướng khác nhau có yêu cầu bảo quản khác nhau. Bảo quản bánh ngọt của bạn đúng cách sẽ đảm bảo hương vị tuyệt vời.<br>
+                    
+            🌥 Bảo quản nơi khô ráo, nhiệt độ phòng, tránh xa nguồn nhiệt. Bạn có thể hâm nóng bánh sừng bò, bánh tart phô mai, bánh tart trứng trong lò nướng vài phút (hoặc vài giây trong lò vi sóng) trước khi thưởng thức.<br>
+            
+            🍽 Ăn trong ngày hoặc trong ngày hôm sau</p>
+        <a href="#" class="btn">read more</a>
+    </div>
+</section>
+
+<section class="banner-container">
+
+    <div class="banner">
+        <img decoding="async" src="img/s1.jpg" alt="">
+        <div class="content">
+        <span>limited sales</span>
+        <h3>upto 50% off</h3>
+        <a href="#" class="btn">shop now</a>
+    </div>
+    </div>
+
+    <div class="banner">
+        <img decoding="async" src="img/s2.jpg" alt="">
+        <div class="content">
+        <span>limited sales</span>
+        <h3>upto 50% off</h3>
+        <a href="#" class="btn">shop now</a>
+    </div>
+    </div>
+
+    <div class="banner">
+        <img decoding="async" src="img/s3.jpg" alt="">
+        <div class="content">
+        <span>limited sales</span>
+        <h3>upto 50% off</h3>
+        <a href="#" class="btn">shop now</a>
+    </div>
+    </div>
+
+    <div class="banner">
+        <img decoding="async" src="img/s4.jpg" alt="">
+        <div class="content">
+        <span>limited sales</span>
+        <h3>upto 50% off</h3>
+        <a href="#" class="btn">shop now</a>
+    </div>
+    </div>
+    
+    <div class="banner">
+        <img decoding="async" src="img/s5.jpg" alt="">
+        <div class="content">
+        <span>limited sales</span>
+        <h3>upto 50% off</h3>
+        <a href="index4.html" class="btn">shop now</a>
+    </div>
+    </div>
+
+    <div class="banner">
+        <img decoding="async" src="img/s6.jpg" alt="">
+        <div class="content">
+        <span>limited sales</span>
+        <h3>upto 50% off</h3>
+        <a href="#" class="btn">shop now</a>
+    </div>
+    </div>
+
+</section>
+
+
+
+
+
+
+
+<div class="heading" id="contact">
+    <h1>Liên Hệ</h1>
+</div>
+
+<section class="contact">
+    <div class="icons-container">
+
+        <div class="icons">
+            <i class="fas fa-phone"></i>
+            <h3>SĐt Của CAKE</h3>
+            <p>+111-222-3333</p>
+            <p>+456-786-7890</p>
+        </div>
+
+        <div class="icons">
+            <i class="fas fa-envelope"></i>
+            <h3>Email</h3>
+            <p>Takeacake@gmail.com</p>
+            <p>CAKE@gmail.com</p>
+        </div>
+
+        <div class="icons">
+            <i class="fas fa-map-marker-alt"></i>
+            <h3>Địa chỉ</h3>
+            <p>HaNoi, VietNam</p>
+        </div>
+
+    </div>
+
+     <div class="row">
+         <form action="">
+             <h3>get in touch</h3>
+             <div class="inputBox">
+             <input type="text" placeholder="enter your name" class="box">
+             <input type="text" placeholder="enter your email" class="box">
+            </div>
+            <div class="inputBox">
+                <input type="number" placeholder="enter your number" class="box">
+                <input type="text" placeholder="enter your subject" class="box">
+               </div>
+               <textarea placeholder=" your message" cols="30" rows="10"></textarea>
+               <input type="submit" value="send message" class="btn">
+         </form>
+         <iframe class="map" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3724.2843653376385!2d105.82428789999999!3d21.02130490000001!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3135ab79e16312a3%3A0x32161eb38c5a3d2f!2zTmcuIDIxNywgw5QgQ2jhu6MgROG7q2EsIMSQ4buRbmcgxJBhLCBIw6AgTuG7mWksIFZp4buHdCBOYW0!5e0!3m2!1svi!2sus!4v1694676305848!5m2!1svi!2sus" height="500" width="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+     </div>
+
+</section>
+
+<div class="heading" id="review">
+    <h1>Đánh Giá</h1>
+</div>
+
+
+<section class="review">
+
+    <div class="box">
+        <div class="user">
+            <img decoding="async" src="img/rv1.png" alt="">
+            <div class="info">
+                <h3>Nguyễn Văn A</h3>
+                <span>happy client</span>
+            </div>
+        </div>
+        <p> Bánh ngon lém elm!</p>
+    </div>
+
+    <div class="box">
+        <div class="user">
+            <img decoding="async" src="img/rv2.png" alt="">
+            <div class="info">
+                <h3>Lê Minh An N</h3>
+                <span>happy client</span>
+            </div>
+        </div>
+        <p>Bánh vừa xinh vừa ngon. Quá là tuỵt zời</p>
+    </div>
+
+    <div class="box">
+        <div class="user">
+            <img decoding="async" src="img/rv3.png" alt="">
+            <div class="info">
+                <h3>Đỗ Đại H</h3>
+                <span>happy client</span>
+            </div>
+        </div>
+        <p>Chắc tôi phải chuyển nhà cạnh shop bánh luôn</p>
+    </div>
+
+</section>
+
+
+<section class="info-container">
+
+    <div class="info">
+        <img decoding="async" src="img/ic1.png" alt="">
+        <div class="content">
+            <h3>giao hàng nhanh</h3>
+            <span>chỉ trong 30p</span>
+        </div>
+    </div>
+
+    <div class="info">
+        <img decoding="async" src="img/ic3.png" alt="">
+        <div class="content">
+            <h3>thanh toán đơn giản</h3>
+            <span>tiền mặt hoặc thẻ</span>
+        </div>
+    </div>
+
+    <div class="info">
+        <img decoding="async" src="img/ic4.png" alt="">
+        <div class="content">
+            <h3>bánh ngon</h3>
+            <span>như là ăn cơm mẹ nấu</span>
+        </div>
+    </div>
+
+
+</section>
+
+<div class="space"></div>
+
+
+
+<section class="footer">
+    <div class="box-container">
+        <div class="box">
+            <h3>quick links</h3>
+        <a href="#"> <i class="fas fa-arrow-right"></i>Home</a>
+        <a href="#"> <i class="fas fa-arrow-right"></i>Shop</a>
+        <a href="#"> <i class="fas fa-arrow-right"></i>About</a>
+        <a href="#"> <i class="fas fa-arrow-right"></i>Review</a>
+        <a href="#"> <i class="fas fa-arrow-right"></i>Blog</a>
+        <a href="#"> <i class="fas fa-arrow-right"></i>Contact</a>
+        </div>
+
+        <div class="box">
+            <h3>extra links</h3>
+            <a href="#"> <i class="fas fa-arrow-right"></i>  my order </a>
+            <a href="#"> <i class="fas fa-arrow-right"></i>  my favorite </a>
+            <a href="#"> <i class="fas fa-arrow-right"></i>  my wishlist </a>
+            <a href="#"> <i class="fas fa-arrow-right"></i>  my account </a>
+            <a href="#"> <i class="fas fa-arrow-right"></i>  terms or use </a>
+        </div>
+
+        <div class="box">
+            <h3>follow us</h3>
+            <a href="#"> <i class="fab fa-facebook-f"></i> facebook </a>
+            <a href="#"> <i class="fab fa-twitter"></i> twitter </a>
+            <a href="#"> <i class="fab fa-instagram"></i> instagram </a>
+            <a href="#"> <i class="fab fa-linkedin"></i> linkedin </a>
+            <a href="#"> <i class="fab fa-pinterest"></i> pinterest </a>
+        </div>
+
+        <div class="box">
+            <h3>Trở thành người nhà của Cake</h3>
+            <p>subscribe for latest update</p>
+            <form action="">
+            <input type="email" placeholder="enter your email address">
+            <input type="submit" value="subscribe" class="btn">
+            </form>
+            <img decoding="async" src="img/pm.png" class="payments" alt="">
+        </div>
+    </div>
+</section>
+
+<section class="credit">created by Nhóm 8</section>
+
+</div>
+    
+    <!--js link-->
+     <script src="js.js" defer data-deferred="1"></script>
+
+     <a href="#" class="arrow"><i><img src="img/up-arrow.png" alt="" width="50px"></i></a>
+     
+     <script src="https://unpkg.com/ionicons@4.5.10-0/dist/ionicons.js"></script>
+
+    </body>
+</html>
+
