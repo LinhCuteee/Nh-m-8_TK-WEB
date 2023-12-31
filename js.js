@@ -65,3 +65,24 @@ document.getElementById("contactForm").addEventListener("submit", function (e) {
     document.getElementById("contactForm").reset();
   });
   
+  document.getElementById("subscriptionForm").addEventListener("submit", function (e) {
+    e.preventDefault();
+  
+    // Get form values
+    const email = document.getElementById("email1").value;
+  
+    // Validate that the email is not empty
+    if (!email) {
+      alert("Vui lòng nhập địa chỉ email");
+      return;
+    }
+  
+    // Display success message using alert
+    alert("Đăng ký thành công! Cảm ơn bạn đã đăng ký.");
+  
+    // Optionally, you can clear the email field after successful submission
+    document.getElementById("subscriptionForm").reset();
+  });
+  
+  
+
