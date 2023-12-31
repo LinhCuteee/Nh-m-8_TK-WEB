@@ -42,4 +42,26 @@ function searchProducts() {
     });
 }
 
-s
+document.getElementById("contactForm").addEventListener("submit", function (e) {
+    e.preventDefault();
+  
+    // Get form values
+    const fullName = document.getElementById("fullName").value;
+    const email = document.getElementById("email").value;
+    const phone = document.getElementById("phone").value;
+    const address = document.getElementById("address").value;
+    const message = document.getElementById("message").value;
+  
+    // Validate that none of the fields are empty
+    if (!fullName || !email || !phone || !address || !message) {
+      alert("Vui lòng điền đầy đủ thông tin");
+      return;
+    }
+  
+    // Display success message using alert
+    alert("Gửi thành công!");
+  
+    // Optionally, you can clear the form fields after successful submission
+    document.getElementById("contactForm").reset();
+  });
+  
