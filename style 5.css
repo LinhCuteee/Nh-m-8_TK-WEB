@@ -154,3 +154,10 @@ body {
   cursor: pointer;
   display: block;
 }
+.signup__container form .repeat-password-input {
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  margin-bottom: 20px;
+}
+
